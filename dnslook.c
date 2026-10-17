@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 		struct sockaddr_in6 *ipv6 = (struct sockaddr_in6 *)res->ai_addr;
 		char ipv6str[INET6_ADDRSTRLEN];
 		inet_ntop(AF_INET6, &(ipv6->sin6_addr), ipv6str, sizeof(ipv6str));
-		printf("%s\n", domain);
+		printf("%s:\n", domain);
 		printf("	IPV6: %s\n", ipv6str);
 		freeaddrinfo(res);
 		return 0;
