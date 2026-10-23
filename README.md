@@ -20,3 +20,12 @@ cd dnslook
 sudo make uninstall
 rm dnslook
 ```
+# Usage
+## help
+```bash
+dnslook --help
+```
+## example usage
+```bash
+dnslook google.com --ipv4
+```
