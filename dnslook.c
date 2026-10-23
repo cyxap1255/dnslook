@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
 		      "	NXDOMAIN - non-existent domain\n");
 	}
 
-	if (argc != 3) {
+	if (argc != 3 && strcmp(argv[1], "--help") == 1) {
         	printf("usage: dnslook [DOMAIN NAME] --ipv4/--ipv6\n");
 		return 1;
 	}
