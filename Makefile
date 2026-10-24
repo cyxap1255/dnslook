@@ -15,3 +15,6 @@ install: $(TARGET)
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/$(TARGET)
+
+clean:
+	rm -f $(TARGET)
