@@ -17,8 +17,7 @@ make && sudo make install
 # Uninstallation
 ```bash
 cd dnslook
-sudo make uninstall
-rm dnslook
+sudo make uninstall && sudo make clean
 ```
 # Usage
 ## help
